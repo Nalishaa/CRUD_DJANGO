@@ -11,7 +11,7 @@ body {
   background-color: #eee;
   background:
     linear-gradient(135deg, rgba(128, 47, 95, 0.14), rgba(10, 49, 70, 0.13)),
-    url("/static/images/bg1.jpg");
+    url("/static/grocery/images/bg1.jpg");
 
   background-size: cover;
   background-position: center;
