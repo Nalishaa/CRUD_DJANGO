@@ -7,12 +7,14 @@
 
 .single-item p {
   text-transform: capitalize;
+  word-break: break-word;
 }
 
 .single-item input[type="checkbox"] {
   cursor: pointer;
   width: 1rem;
   height: 1rem;
+  flex-shrink: 0;
 }
 
 .single-item .btn {
@@ -44,7 +46,16 @@
 }
 
 @media (max-width: 600px) {
+  .single-item {
+    column-gap: 0.5rem;
+  }
+
   .single-item:first-child {
     margin-top: 15px;
+  }
+
+  .single-item .btn {
+    padding: 0.375rem 0.5rem;
+    font-size: 0.85rem;
   }
 }

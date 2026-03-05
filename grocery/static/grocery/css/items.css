@@ -1,5 +1,14 @@
 .items {
-  margin-top: 2rem;
   display: grid;
   row-gap: 1rem;
+}
+
+.single-item:first-of-type {
+  margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  .items {
+    row-gap: 0.75rem;
+  }
 }

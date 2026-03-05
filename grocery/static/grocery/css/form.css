@@ -13,8 +13,8 @@ form h2 {
 
 .form-control {
   display: grid;
-  height: 40px;
   grid-template-columns: 1fr 105px;
+  height: 40px;
 }
 
 .form-input {
@@ -52,16 +52,20 @@ form h2 {
 
 @media (max-width: 600px) {
   .form-control {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    height: auto;
     row-gap: 10px;
   }
 
   .form-input {
     border-radius: 0.4rem;
+    height: 40px;
   }
 
   .form-control .btn {
     width: 100%;
     border-radius: 0.4rem;
+    height: 40px;
   }
 }
