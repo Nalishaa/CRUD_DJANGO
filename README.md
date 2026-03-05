@@ -15,4 +15,4 @@ A CRUD grocery list app built with Django.
 - SQLite
 - HTML & CSS
 
-## [🔗 View Grocery Bud](#)
+## [🔗 View Grocery Bud](https://nalishashakya.pythonanywhere.com/)
