@@ -16,5 +16,3 @@ A CRUD grocery list app built with Django.
 - HTML & CSS
 
 ## [🔗 View Grocery Bud](#)
-
-> Replace `#` with your live URL after deploying
